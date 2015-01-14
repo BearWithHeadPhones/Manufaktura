@@ -1,0 +1,26 @@
+
+.jumbotron {
+	background-image:url('images/manufaktura1.jpg');
+	background-size:100%;
+	background-attachment: fixed;
+	min-height:400px;
+	margin-bottom:0px;
+}
+
+
+.alt2{
+	background-color: #222;
+  	border-color: #080808;
+	min-height:150px;
+	bottom: 0;
+  	margin-bottom: 0;
+  	#position: fixed;
+  	right: 0;
+  	left: 0;
+  	text-align: right;
+
+}
+
+.alt1{
+	background-color: #999;
+}
