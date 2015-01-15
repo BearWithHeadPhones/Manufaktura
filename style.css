@@ -1,9 +1,28 @@
 
 .jumbotron {
-	background-image:url('images/manufaktura1.jpg');
-	background-size:100%;
+	background-image:url('images/back.jpg');
+	background-size: cover;
 	background-attachment: fixed;
-	min-height:400px;
+	background-position:center top;
+	min-height:500;
+	margin-bottom:0px;
+	color: #FFF;
+
+}
+
+
+.navbar-fixed-top {
+	margin-top: 10px;
+	margin-right: 70px;
+	margin-left: 70px;
+} 
+
+.jumbotron2 {
+	background-image:url('images/monika.jpg');
+	background-size:cover;;
+	background-attachment: fixed;
+	background-position:right top;
+	min-height:100vh;
 	margin-bottom:0px;
 }
 
@@ -14,7 +33,6 @@
 	min-height:150px;
 	bottom: 0;
   	margin-bottom: 0;
-  	#position: fixed;
   	right: 0;
   	left: 0;
   	text-align: right;
@@ -23,4 +41,10 @@
 
 .alt1{
 	background-color: #999;
+}
+
+.halfscreen{
+	background-color: white;
+	min-height:50vh;
+	max-height: 50vh;
 }
