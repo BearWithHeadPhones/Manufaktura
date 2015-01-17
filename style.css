@@ -4,7 +4,7 @@
 	background-size: cover;
 	background-attachment: fixed;
 	background-position:center top;
-	min-height:500;
+	min-height:700;
 	margin-bottom:0px;
 	color: #Fff ;
 }
@@ -21,10 +21,30 @@
 	background-attachment: fixed;
 	background-position:right top;
 	min-height:100vh;
+	max-height: 100vh;
 	margin-bottom:0px;
 }
 
+.jumbotron2 p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.jumbotron3 {
+	background-image:url('images/agata2.jpg');
+	background-size:cover;;
+	background-attachment: fixed;
+	background-position:right top;
+	min-height:100vh;
+	max-height: 100vh;
+	margin-bottom:0px;
+}
 
+.jumbotron3 p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
 
 .alt2{
 	background-color: #222;
@@ -39,7 +59,8 @@
 }
 
 .alt1{
-	background-color: #999;
+	background-color: #f0f0f0;
+	margin-top:50px;
 }
 
 .halfscreen{
