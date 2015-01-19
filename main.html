@@ -38,7 +38,7 @@
       </button>
       <div class="collapse navbar-collapse navHeaderCollapse">
         <ul class="nav navbar-nav navbar-right">
-          <li> <a href="#home">Strona główna</a> </li>
+          <li class="active"> <a href="#home">Strona główna</a> </li>
           <li> <a href="#wizjaicel">Wizja i Cel</a> </li>
           <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Poznaj nas<span class="caret"></span></a>
@@ -74,7 +74,7 @@
       <h2 class="text-center">Manufaktura</h2>
       <h3 class="text-center"> dla...</h3>
           <p class="text-justify" >Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60.</p>
-          <a href="dzieci.html" class="btn btn-success btn-lg"> Szczegóły... </a>
+          <a href="amp.html" class="btn btn-success btn-lg"> Szczegóły... </a>
   
       </div>
 
@@ -92,8 +92,7 @@
 
      <h2 class="text-center">Manufaktura</h2>
       <h3 class="text-center"> dla...</h3>
-          <p class="text-justify" >Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60.Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60
-          Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60</p>
+          <p class="text-justify" >Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmieniony</p>
           <a href="#" class="btn btn-danger btn-lg"> Tell me more </a>
 
       
@@ -102,8 +101,10 @@
     </div>
   </div>
 
-  <div class="alt1" id="wizjaicel">
-    <div class="container "> 
+</br>
+</br>
+
+    <div class="container" id="wizjaicel"> 
         <div class="row">
           <div class="col-md-4">
            <br/>
@@ -150,7 +151,7 @@ i osobistych) nie jest możliwe.</p>
          </div>
       </div>
     </div>
-  </div>
+  
 
 
 
@@ -265,6 +266,12 @@ Współpracuję z zawodnikami różnych dyscyplin zarówno indywidualnie jak i z
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
+        console.log(this);
+        $('li').removeClass("active");
+        $($(this).parent().get( 0 )).addClass("active");
+
+        
+       
         return false;
       }
     }
