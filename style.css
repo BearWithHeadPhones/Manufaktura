@@ -40,7 +40,7 @@
   font-weight: 200;
 }
 
-.alt2{
+.myfooter{
 	background-color: #222;
   	border-color: #080808;
 	min-height:150px;
@@ -48,8 +48,12 @@
   	margin-bottom: 0;
   	right: 0;
   	left: 0;
-  	text-align: right;
 
+}
+
+.myfooter  li{
+	color:#909090 ;
+	list-style-type: none;
 }
 
 .alt1{
@@ -62,6 +66,7 @@
 	min-height:50vh;
 	max-height: 50vh;
 }
+
 
 
 
