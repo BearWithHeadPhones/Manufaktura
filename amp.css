@@ -34,10 +34,17 @@ body {
 }
 
 .back{
-	background-image:url('images/back 2.jpg');
-	background-size: cover;
+	background-image:url('images/backcrop.jpg');
 }
 
 .container{
 	background-color:#fff;
+}
+
+.full-circle {
+ background-color: #c06;
+ height: 150px;
+ -moz-border-radius:75px;
+ -webkit-border-radius: 75px;
+ width: 150px;
 }
