@@ -3310,7 +3310,7 @@ tbody.collapse.in {
     right: 0;
     left: auto;
   }
-  .navbar-right .dropdown-menu-left {
+  .fbar-right .dropdown-menu-left {
     right: auto;
     left: 0;
   }

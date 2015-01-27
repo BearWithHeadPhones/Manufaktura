@@ -15,6 +15,11 @@ if (typeof jQuery === 'undefined') {
   }
 }(jQuery);
 
+
++function ($) {
+  var version = $.fn.jquery.split
+}
+
 /* ========================================================================
  * Bootstrap: transition.js v3.3.1
  * http://getbootstrap.com/javascript/#transitions
